@@ -134,7 +134,7 @@ class train:
 
 def main():
   model = train()
-  model.louad_data("../data.csv")
+  model.louad_data("data.csv")
   theta1, theta0 = model.main_traing()
   print("saving figures and model to visualize the model ...")
   min_miles = model.miles.min()
