@@ -130,7 +130,7 @@ class train:
     plt.xlabel('km')
     plt.ylabel('price')
     plt.savefig('prediction.png')
-    return theta_final[0], theta[1]
+    return theta_final[0], theta_final[1]
 
 def main():
   model = train()
